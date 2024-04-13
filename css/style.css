@@ -13,6 +13,19 @@ body{
     justify-content: space-between;
     
 }
+.bg-bodynav{
+    background-color: #F7FBEE;
+}
+/*COLOR DE LA BARRA DE NAVEGACION*/
+.bg-bodynavB{
+    background-color: #739D2E;
+}
+/*......................................................*/
+.btn-p{
+    background-color: #739D2E !important;
+}
+
+
 
 /*.navBar{
     display: flex;
@@ -55,6 +68,7 @@ body{
     grid-area: header;
 }
 
+
 .navBarIs{
     display: flex;
     justify-content: right;
@@ -63,11 +77,10 @@ body{
     /*position: relative;*/
     padding-top: 5%;
 }
-.navBarIs li a{
+.navbar-nav a{
     text-decoration: none;
     color: black;
     font-size: 25px;
-    padding: 30px 40px;
 }
 
 .bodyContainerIs main{
@@ -110,4 +123,20 @@ body{
     grid-area: footer;
     background-color: #739D2E;
     color: #0F223D ;
+}
+/* decoracion de footer*/
+
+a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+p {
+    font-size: 17px;
+}
+a:hover {
+    color: #ffffff !important;
+}
+i{
+    font-size: 25px;
 }

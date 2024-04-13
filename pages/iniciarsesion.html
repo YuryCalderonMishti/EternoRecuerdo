@@ -5,26 +5,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <div class="bodyContainerIs">
-        <header>
-            <nav>
-                <ul class="navBarIs">
-                    <li><a href="../index.html">inicio</a></li>
-                    <li><a href="#">iniciar sesion</a></li>
-                    <li><a href="./nosotros.html">nosotros</a></li>
-                    <li><a href="./servicios.html">servicios</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <h1>iniciar sesion</h1>
-        </main>
-        <footer>
-            <p>direccion</p>
+<body class="bg-bodynav">
+    <header class="navbar navbar-expand-lg bg-bodynavB">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                    <a class="nav-link" href="#">Usuarios</a>
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                    <a class="nav-link" href="./servicios.html">Servicios</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="d-flex justify-content-center align-items-center vh-100">
+        <div class="bg-white p-5 rounded-5 text-secondary shadow" style="width: 25rem;">
+            <div class="d-flex justify-content-center">
+                <img src="../assets/img/ETERNO RECUERDO/LOGO COMPLETO 3.svg" alt="Logo" style="height: 5rem;">
+            </div>
+            <div class="mt-4">Correo electrónico</div>
+            <div>
+                <input class="form-control" type="text" placeholder="Margarita55@hotmail.com"/>
+            </div>
+            <div class="mt-1">Contraseña</div>
+            <div>
+                <input class="form-control" type="password" placeholder="Password"/>
+            </div>
+            <div class="d-flex justify-content-around mt-1">
+                <div class="d-flex aling-items-center gap-1">
+                    <input class="form-check-imput" type="checkbox"/>
+                    <div class="pt-1" style="font-size: 0.9rem">Recordar</div>
+                </div>
+                <div class="pt-1">
+                    <a href="#" class="text-decoration-none  fw-semibold fst-italic" style="font-size: 0.9rem; color: #739d2e">¿Has olvidado tu contraseña?</a>
+                </div>
+            </div>
+            <div class="btn btn-p text-white w-100 mt-4 fw-semibold shadow-sm">Ingresar</div>
+            <div class="d-flex gap-1 justify-content-center mt-2">
+                <div>No tengo una cuenta?</div>
+                <a href="#" class="text-decoration-none  fw-semibold" style="color: #739d2e" >Registrarme</a>  
+            </div>
+            <div class="p-3">
+                <div class="border-bottom text-center" style="height: 0.9rem">
+                    <span class="bg-white px-3">or</span>
+                </div>
+            </div>
+            <div class="btn d-flex gap-2 justify-content-center border mt-3 shadow-sm">
+                <img src="../assets/img/ETERNO RECUERDO/google-icon.svg" alt="ingresa con cuenta Google" style="height: 1.6rem"/>
+                <div class="fw-semibold text-secondary">Inicia Sesion con Google</div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-bodynavB text-dark pt-5 pb-b">
+        <div class="container text-center text-md-start">
+            <div class="row text-center text-md-start">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-semibold">Servicio al Cliente</h5>
+                    <hr class="mb-4">
+                    <p>
+                        <a href="#" class="text-dark">Contactos</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-dark">Comprobantes electrónicos</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-dark">Legales Promocionales</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-dark">Terminos y condiciones</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-dark">Cambios y devoluciones</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-dark">Politica de privacidad</a>
+                    </p>
+                    
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-semibold">Cantactate con Nosotros</h5>
+                    <hr class="mb-4">
+                    <p class="text-dark" >Direccion:</p>
+                    <p>calle San pedro 136 urb Benjamin Doing</p>
+                    <p>Lima, Peru</p>
+                    <p class="text-dark" >Correo Electrónico:</p>
+                    <p>yury.calderon13@gmail.com</p>
+                    <p class="text-dark" >Telefonos:</p>
+                    <p>(770) 791-1355 x969</p>
+                    <p>(770) 791-1355 x968</p>
+                </div>
+                <div class="text-center">
+                    <ul class="list-unstyled list-item">
+                        <li class="list-inline-item">
+                            <a href="#"class="text-dark" ><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#"class="text-dark" ><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#"class="text-dark" ><i class="fab fa-linkedin-in"></i></a>
+                        </li>
 
-        </footer>
-    </div>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>
