@@ -1,18 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body{
-    background-color: #F7FBEE;
-}
-
-.header-index{
-    display: flex;
-    justify-content: space-between;
-    
-}
 .bg-bodynav{
     background-color: #F7FBEE;
 }

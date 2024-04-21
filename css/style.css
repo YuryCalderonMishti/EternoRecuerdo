@@ -6,15 +6,90 @@
 body {
   background-color: #F7FBEE; }
 
-.footer {
+header {
+  display: flex;
+  justify-content: space-between; }
+  header img {
+    width: fit-content;
+    height: fit-content; }
+
+footer {
   background-color: #739D2E;
-  text-decoration-color: dark;
+  text-decoration-color: black;
   padding-top: 5px;
   padding-bottom: 4px; }
-  .footer .container {
-    text-align: center; }
+  footer .container {
+    text-align: center;
+    font-size: medium;
+    line-height: 50%; }
+    footer .container p {
+      font-size: 12px; }
+      footer .container p a {
+        color: #0c0c0c;
+        text-decoration: none; }
+
+main {
+  display: flex;
+  height: auto;
+  margin-top: 2px; }
+  main .Portada {
+    display: flex;
+    justify-content: center; }
+    main .Portada img {
+      width: fit-content;
+      height: fit-content; }
+  main .Intro {
+    display: flex;
+    align-items: center; }
 
 .bg-bodynav {
   background-color: #F7FBEE; }
   .bg-bodynav .navbar {
     background-color: #739D2E; }
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+  main .cuadroIs {
+    background-color: white;
+    padding: 5px;
+    border: 5px;
+    text-decoration: #6c757d;
+    width: 25rem; }
+    main .cuadroIs .logo {
+      display: flex;
+      justify-content: center; }
+      main .cuadroIs .logo img {
+        height: 5rem; }
+    main .cuadroIs .recordar {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 3px; }
+      main .cuadroIs .recordar .botoncheck {
+        display: flex;
+        align-items: center;
+        gap: 1px; }
+        main .cuadroIs .recordar .botoncheck div {
+          padding-top: 1px;
+          font-size: 0.9rem; }
+      main .cuadroIs .recordar .Recuperar {
+        padding-top: 2px; }
+        main .cuadroIs .recordar .Recuperar a {
+          text-decoration: none;
+          font-weight: bold;
+          font-style: italic;
+          font-size: 0.9rem;
+          color: #739d2e; }
+    main .cuadroIs .btn-p {
+      background-color: #739D2E; }
+    main .cuadroIs .CuentaNueva {
+      display: flex;
+      gap: 3px;
+      justify-content: center;
+      margin-top: 6px; }
+      main .cuadroIs .CuentaNueva a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #739D2E; }

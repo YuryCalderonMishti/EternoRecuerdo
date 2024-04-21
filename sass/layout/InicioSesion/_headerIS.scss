@@ -4,3 +4,66 @@
         background-color:  #739D2E;
     }
 }
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .cuadroIs{
+        background-color: white;
+        padding: 5px;
+        border: 5px;
+        text-decoration: #6c757d ;
+        width: 25rem;
+        .logo{
+            display: flex;
+            justify-content: center;
+            img{
+                height: 5rem;
+            }
+        }
+        .recordar{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 3px;
+            .botoncheck{
+                display: flex;
+                align-items: center;
+                gap: 1px;
+                div{
+                    padding-top: 1px;
+                    font-size: 0.9rem;
+                }
+            }
+            .Recuperar{
+                padding-top: 2px;
+                a{ 
+                    text-decoration: none;
+                    font-weight: bold;
+                    font-style: italic;
+                    font-size: 0.9rem;
+                    color: #739d2e;
+                }
+            }
+        }
+        .btn-p{
+            background-color: #739D2E;
+        }
+        .CuentaNueva{
+            display: flex;
+            gap: 3px;
+            justify-content: center;
+            margin-top: 6px;
+            a{
+                text-decoration: none;
+                font-weight: bold;
+                color: #739D2E;
+            }
+        }
+    }
+}
+
+
+
+
