@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -28,68 +29,121 @@ footer {
         color: #0c0c0c;
         text-decoration: none; }
 
-main {
+.container-index {
+  display: grid; }
+  .container-index img {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+.seccionintro {
+  width: 100%;
+  height: 80vh;
   display: flex;
-  height: auto;
-  margin-top: 2px; }
-  main .Portada {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #F7FBEE; }
+  .seccionintro .bloque3 {
+    width: 80%;
+    height: 100%;
     display: flex;
-    justify-content: center; }
-    main .Portada img {
-      width: fit-content;
-      height: fit-content; }
-  main .Intro {
-    display: flex;
-    align-items: center; }
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute; }
+    .seccionintro .bloque3 .img-intro {
+      width: 30%; }
+      .seccionintro .bloque3 .img-intro img {
+        object-fit: cover;
+        width: 80%;
+        height: 80%; }
+    .seccionintro .bloque3 .texto-intro {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      padding: 10% 10%; }
+      .seccionintro .bloque3 .texto-intro img {
+        position: absolute;
+        object-fit: cover; }
+      .seccionintro .bloque3 .texto-intro h1 {
+        align-content: center;
+        position: relative; }
+      .seccionintro .bloque3 .texto-intro p {
+        font-size: 18px;
+        margin-top: 20px;
+        text-align: justify;
+        position: relative; }
+
+.seccionnosotros {
+  width: 100%;
+  height: calc(100vh-80px);
+  display: flex;
+  flex-direction: center;
+  justify-content: left;
+  align-items: center;
+  background: #F7FBEE; }
+  .seccionnosotros .bloque4 .pestaña1 {
+    padding: 20px;
+    width: 30%;
+    background: #739D2E;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; }
 
 .bg-bodynav {
   background-color: #F7FBEE; }
   .bg-bodynav .navbar {
     background-color: #739D2E; }
 
-main {
+.ContenidoIs {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh; }
-  main .cuadroIs {
+  .ContenidoIs .cuadroIs {
     background-color: white;
     padding: 5px;
     border: 5px;
     text-decoration: #6c757d;
     width: 25rem; }
-    main .cuadroIs .logo {
+    .ContenidoIs .cuadroIs .logo {
       display: flex;
       justify-content: center; }
-      main .cuadroIs .logo img {
+      .ContenidoIs .cuadroIs .logo img {
         height: 5rem; }
-    main .cuadroIs .recordar {
+    .ContenidoIs .cuadroIs .recordar {
       display: flex;
       justify-content: space-between;
       margin-top: 3px; }
-      main .cuadroIs .recordar .botoncheck {
+      .ContenidoIs .cuadroIs .recordar .botoncheck {
         display: flex;
         align-items: center;
         gap: 1px; }
-        main .cuadroIs .recordar .botoncheck div {
+        .ContenidoIs .cuadroIs .recordar .botoncheck div {
           padding-top: 1px;
           font-size: 0.9rem; }
-      main .cuadroIs .recordar .Recuperar {
+      .ContenidoIs .cuadroIs .recordar .Recuperar {
         padding-top: 2px; }
-        main .cuadroIs .recordar .Recuperar a {
+        .ContenidoIs .cuadroIs .recordar .Recuperar a {
           text-decoration: none;
           font-weight: bold;
           font-style: italic;
           font-size: 0.9rem;
           color: #739d2e; }
-    main .cuadroIs .btn-p {
+    .ContenidoIs .cuadroIs .btn-p {
       background-color: #739D2E; }
-    main .cuadroIs .CuentaNueva {
+    .ContenidoIs .cuadroIs .CuentaNueva {
       display: flex;
       gap: 3px;
       justify-content: center;
       margin-top: 6px; }
-      main .cuadroIs .CuentaNueva a {
+      .ContenidoIs .cuadroIs .CuentaNueva a {
         text-decoration: none;
         font-weight: bold;
         color: #739D2E; }
