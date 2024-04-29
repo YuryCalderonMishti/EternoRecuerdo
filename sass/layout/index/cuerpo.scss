@@ -56,25 +56,5 @@
         }
     }
 }
-.seccionnosotros{
-    width: 100%;
-    height: calc(100vh-80px);
-    display: flex;
-    flex-direction: center;
-    justify-content: left;
-    align-items: center;
-    background: map-get($map: $colores, $key: color3);
-    .bloque4{
-        .pestaña1{
-            padding: 20px;
-            width: 30%;
-            background: map-get($map: $colores, $key: color2);
-            text-align: center;
-            color: white;
-            border-top-right-radius: 20px;
-            border-bottom-right-radius: 20px;
-        }
-    }
 
-}
 
