@@ -9,7 +9,8 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  background-color: #F7FBEE; }
   header img {
     width: fit-content;
     height: fit-content; }
@@ -79,9 +80,178 @@ footer {
         text-align: justify;
         position: relative; }
 
+.seccionpasos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #F7FBEE; }
+  .seccionpasos .TituloPasos {
+    width: 100%;
+    max-width: 1080px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center; }
+  .seccionpasos .cardcontainer {
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    margin: auto; }
+    .seccionpasos .cardcontainer .Card {
+      width: 100%;
+      margin: 20px;
+      border-radius: 15px;
+      text-align: center;
+      overflow: hidden;
+      background: white;
+      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+      transition: all 400ms ease-out;
+      cursor: default; }
+      .seccionpasos .cardcontainer .Card:hover {
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%); }
+      .seccionpasos .cardcontainer .Card img {
+        width: 50%;
+        height: 50%;
+        object-fit: contain;
+        object-position: center; }
+      .seccionpasos .cardcontainer .Card h2 {
+        padding-top: 10px; }
+      .seccionpasos .cardcontainer .Card h3 {
+        padding-top: 30px;
+        font-weight: lighter; }
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    .seccionpasos .cardcontainer {
+      flex-wrap: wrap; }
+    .seccionpasos .Card {
+      margin: 15px; } }
+
+.SeccionServicios {
+  width: 100%;
+  display: flex;
+  flex-direction: center;
+  justify-content: left;
+  align-items: center;
+  background: #F7FBEE; }
+  .SeccionServicios .bloqueServicios {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-top: 20px; }
+    .SeccionServicios .bloqueServicios .pestaña2 {
+      padding: 20px;
+      width: 30%;
+      margin-bottom: 20px;
+      background: #739D2E;
+      text-align: center;
+      color: white;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px; }
+    .SeccionServicios .bloqueServicios .CardPaquete {
+      width: 100%;
+      display: flex;
+      max-width: 1100px;
+      margin: auto; }
+      .SeccionServicios .bloqueServicios .CardPaquete .Card2 {
+        width: 100%;
+        margin: 20px;
+        border-radius: 15px;
+        text-align: center;
+        overflow: hidden;
+        background: #F6EDD9;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+        transition: all 400ms ease-out;
+        cursor: default; }
+        .SeccionServicios .bloqueServicios .CardPaquete .Card2:hover {
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          transform: translateY(-3%); }
+        .SeccionServicios .bloqueServicios .CardPaquete .Card2 a {
+          display: inline-block;
+          padding: 10px;
+          margin-top: 10px;
+          text-decoration: none;
+          color: #739D2E;
+          border: 1px solid #739D2E;
+          border-radius: 4px;
+          transition: all 400ms ease;
+          margin-bottom: 5px; }
+          .SeccionServicios .bloqueServicios .CardPaquete .Card2 a:hover {
+            background: #739D2E;
+            color: #fff; }
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+      .SeccionServicios .bloqueServicios .CardPaquete {
+        flex-wrap: wrap; }
+      .SeccionServicios .bloqueServicios .Card2 {
+        margin: 15px; } }
+    .SeccionServicios .bloqueServicios .EleccionPack {
+      width: 60%;
+      display: flex;
+      flex-direction: row;
+      margin: auto; }
+      .SeccionServicios .bloqueServicios .EleccionPack .Cont_img {
+        width: 40%;
+        margin: 20px; }
+        .SeccionServicios .bloqueServicios .EleccionPack .Cont_img img {
+          object-fit: contain;
+          width: 80%;
+          height: 80%;
+          margin: auto; }
+      .SeccionServicios .bloqueServicios .EleccionPack .ContServicios {
+        width: 60%;
+        margin: 20px;
+        align-items: center;
+        justify-content: center; }
+        .SeccionServicios .bloqueServicios .EleccionPack .ContServicios h2 {
+          text-align: center; }
+        .SeccionServicios .bloqueServicios .EleccionPack .ContServicios p {
+          text-align: justify; }
+        .SeccionServicios .bloqueServicios .EleccionPack .ContServicios .ContPrecios {
+          width: 100%;
+          padding: 10px;
+          margin-top: 10px;
+          flex-direction: column;
+          color: black;
+          margin-bottom: 5px;
+          margin-top: 5px; }
+          .SeccionServicios .bloqueServicios .EleccionPack .ContServicios .ContPrecios .Precio1 {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            border: 1px solid #9DA48E;
+            border-radius: 4px;
+            transition: all 400ms ease;
+            margin: 5px;
+            padding-top: 10px;
+            padding-left: 10px; }
+            .SeccionServicios .bloqueServicios .EleccionPack .ContServicios .ContPrecios .Precio1 .PrecioIzq {
+              width: 70%;
+              background-color: white;
+              font-weight: lighter; }
+            .SeccionServicios .bloqueServicios .EleccionPack .ContServicios .ContPrecios .Precio1 .PrecioDer {
+              width: 30%;
+              background-color: white;
+              font-weight: bolder; }
+          .SeccionServicios .bloqueServicios .EleccionPack .ContServicios .ContPrecios .BotonCar {
+            text-align: center; }
+            .SeccionServicios .bloqueServicios .EleccionPack .ContServicios .ContPrecios .BotonCar a {
+              display: inline-block;
+              padding: 10px;
+              margin-top: 10px;
+              text-decoration: none;
+              color: #739D2E;
+              border: 1px solid #739D2E;
+              border-radius: 4px;
+              transition: all 400ms ease;
+              margin-bottom: 5px; }
+              .SeccionServicios .bloqueServicios .EleccionPack .ContServicios .ContPrecios .BotonCar a:hover {
+                background: #739D2E;
+                color: #fff; }
+
 .seccionnosotros {
   width: 100%;
-  height: calc(100vh-80px);
   display: flex;
   flex-direction: center;
   justify-content: left;
@@ -90,6 +260,7 @@ footer {
   .seccionnosotros .bloque4 {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
     width: 100%; }
     .seccionnosotros .bloque4 .pestaña1 {
       padding: 20px;
@@ -178,16 +349,18 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; }
+  height: 90vh;
+  text-align: center; }
   .ContenidoIs .cuadroIs {
-    background-color: white;
+    background: #F6EDD9;
     padding: 5px;
     border: 5px;
     text-decoration: #6c757d;
     width: 25rem; }
     .ContenidoIs .cuadroIs .logo {
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      margin-top: 20px; }
       .ContenidoIs .cuadroIs .logo img {
         height: 5rem; }
     .ContenidoIs .cuadroIs .recordar {

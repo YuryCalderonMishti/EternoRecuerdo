@@ -9,9 +9,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
+    text-align: center;
     .cuadroIs{
-        background-color: white;
+        background: map-get($map: $colores, $key: color4);
         padding: 5px;
         border: 5px;
         text-decoration: #6c757d ;
@@ -19,6 +20,7 @@
         .logo{
             display: flex;
             justify-content: center;
+            margin-top: 20px;
             img{
                 height: 5rem;
             }
