@@ -11,11 +11,13 @@
     align-items: center;
     height: 90vh;
     text-align: center;
+    background: map-get($map: $colores, $key: color3);
     .cuadroIs{
         background: map-get($map: $colores, $key: color4);
         padding: 5px;
         border: 5px;
         text-decoration: #6c757d ;
+        text-align: left;
         width: 25rem;
         .logo{
             display: flex;

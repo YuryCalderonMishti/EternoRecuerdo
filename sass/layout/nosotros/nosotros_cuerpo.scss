@@ -1,105 +1,111 @@
-.seccionnosotros{
-    width: 100%;
+
+.seccionNosotros{
     display: flex;
-    flex-direction: center;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     background: map-get($map: $colores, $key: color3);
+    width: 1280px;
+    margin: 0 auto 0;
+    overflow: hidden;
     .bloque4{
         display: flex;
         flex-direction: column;
         margin-bottom: 20px;
         width: 100%;
         .pestaña1{
-            padding: 20px;
-            width: 30%;
-            background: map-get($map: $colores, $key: color2);
-            text-align: center;
-            color: white;
-            border-top-right-radius: 20px;
-            border-bottom-right-radius: 20px;
-        }
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 20px;
+            .border{
+                width: 160px;
+                height: 5px;
+                background-color:map-get($map: $colores, $key: color2);
+                margin: 26px auto;
+            }
+        } 
         .CuadrosInformativos{
             width: 100%;
-            height: 100vh;
-            flex-direction: column;
-            display: flex;
-            padding-top: 20px;
+            background-color: map-get($map: $colores, $key: color3);
+            padding: 20px;
             .CuadroInfo1{
                 width: 70%;
-                height: 50%;
                 display: flex;
                 background: map-get($map: $colores, $key: color4);
-                justify-content: center;
-                flex-direction: row;
+                justify-content: space-between;
                 margin-left: 25%;
+                padding: 40px;
                 border-radius: 15px;
-                .img-info1{
-                    width: 50%;
-                    padding-top: 5px;
-                    padding-bottom: 5px;
-                    display: flex;
-                    justify-content: center;
-                    img{
-                        object-fit: cover;
-                        width: 80%;
-                        height: 100%;
-                    }
+                img{
+                        width: 200px;
                 }
-                .text-info1{
-                    width:40%;
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: column;
-                    align-items: center;
-                    h1{
-                        align-content: center;
-                    }
-                    p{
-                        font-size: 18px;
-                        margin-top: 20px;
-                        text-align: justify;
-                    }
+                h1{
+                    margin: 0;
+                    text-align: center;
+                }
+                p{
+                    margin-left: 50px;
+                    margin-right: 50px;
+                    text-align: justify;
+                    padding: 20px;
+                    font-size: 20px;
                 }
             }
+            @media(max-width:991px) {
+
+                .CuadroInfo1{
+                    width: 100%;
+                    padding: 0;
+                    margin-left: 0;
+                    img{
+                        display: none;
+                    }
+                }
+                
+            }    
             .CuadroInfo2{
                 width: 70%;
-                height: 50%;
                 display: flex;
                 background: map-get($map: $colores, $key: color4);
-                justify-content: center;
-                flex-direction: row;
+                justify-content: space-between;
                 margin-left: 5%;
-                border-radius: 15px;
                 margin-top: 20px;
-                .img-info2{
-                    width: 50%;
-                    display: flex;
-                    padding-top: 20px;
-                    padding-bottom: 20px;
-                    justify-content: center;
-                    img{
-                        object-fit: cover;
-                        width: 80%;
-                        height: 100%;
-                    }
+                padding: 40px;
+                border-radius: 15px;
+                img{
+                        width: 200px;
                 }
-                .text-info2{
-                    width:40%;
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: column;
-                    align-items: center;
-                    h1{
-                        align-content: center;
-                    }
-                    p{
-                        font-size: 18px;
-                        margin-top: 20px;
-                        text-align: justify;
-                    }
+                h1{
+                    margin: 0;
+                    text-align: center;
+                }
+                p{
+                    margin-left: 50px;
+                    margin-right: 50px;
+                    text-align: justify;
+                    padding: 20px;
+                    font-size: 20px;
                 }
             }
+            @media(max-width:991px) {
+
+                .CuadroInfo2{
+                    width: 100%;
+                    padding: 0;
+                    margin-left: 0;
+                    img{
+                        display: none;
+                    }
+                }
+                
+            } 
         }
+    }
+}
+@media(max-width:991px) {
+
+    .seccionNosotros{
+        width: 100%;
     }
 }

@@ -8,24 +8,68 @@
     <link rel="stylesheet" href="../bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <div class="bodyContainerIs">
-        <header class="header-index">
-            <div>
-                <img src="../assets/img/ETERNO RECUERDO/LOGO COMPLETO 3.svg" alt="">
+<body class="bg-bodynav">
+    <header class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto fw-semibold fs-4">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                    <a class="nav-link" href="./iniciarsesion.html">Usuarios</a>
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                    <a class="nav-link" href="#">Servicios</a>
+                </div>
             </div>
-            <nav>
-                <ul class="navBarIs">
-                    <li><a href="../index.html">inicio</a></li>
-                    <li><a href="./iniciarsesion.html">iniciar sesion</a></li>
-                    <li><a href="./nosotros.html">nosotros</a></li>
-                    <li><a href="#">servicios</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <h1>Servicios</h1>
-        </main>
+        </div>
+    </header>
+    <section class="SeccionServicios">
+        <div class="pestaña2">
+            <h1>Servicios</h2>
+            <div class="border"></div>
+        </div>
+        <div class="CardPaquete">
+            <div class="Card2">
+                <h2>QR Personal</h2>
+                <a href="">Ver más</a>
+            </div>
+            <div class="Card2">
+                <h2>QR Familia Nuclear</h2>
+                <a href="">Ver más</a>
+            </div>
+        </div>
+        <div class="EleccionPack">
+            <div class="Cont_img">
+                <img src="../assets/img/ETERNO-RECUERDO/curriculum en line.svg" alt="">
+            </div>
+            <div class="ContServicios">
+                <h2>PLACAS ETERNO RECUERDO</h2>
+                <P>Este enlace perdurable garantiza que las memorias, fotografías y legado de sus antepasados sean fácilmente accesibles para usted y para las generaciones venideras, manteniendo viva su historia y su impacto en el mundo.</P>
+                <div class="ContPrecios">
+                    <div class="Precio1">
+                        <div class="PrecioIzq">
+                            <p><input type="radio" name="Productos" value="QrPersonal"></input> Qr Personal</p>
+                        </div>
+                        <div class="PrecioDer">
+                            <p>S/   500.00</p>   
+                        </div>
+                    </div>
+                    <div class="Precio1">
+                        <div class="PrecioIzq">
+                            <p><input type="radio" name="Productos" value="Qr Familia Nuclear"></input> Qr Familia Nuclear</p>
+                        </div>
+                        <div class="PrecioDer">
+                            <p>S/ 1 000.00</p>   
+                        </div>
+                    </div>
+                    <div class="BotonCar">
+                        <a href="">Añadir a la cesta</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
         <footer>
             <div class="container">
                 <div class="row text-center text-md-start">
@@ -81,5 +125,6 @@
             </div>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>  
 </body>
 </html>
