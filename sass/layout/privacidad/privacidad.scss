@@ -1,0 +1,28 @@
+.Privacidad{
+    padding: 40px 0;
+    background:map-get($map: $colores, $key: color3);
+    color: black;
+    text-align: center;
+    .Privacidad__cont__titulo{
+        max-width: 1200px;
+        overflow: hidden;
+        margin: auto;
+        padding: 0 20px;
+        .border{
+            width: 160px;
+            height: 5px;
+            background-color:map-get($map: $colores, $key: color2);
+            margin: 26px auto;
+        }
+    }    
+    .Privacidad__cont__parrafo{
+        width: 100%;
+        display: flex;
+        max-width: 80%;
+        margin: auto;
+        p{
+            text-align: justify;
+        }
+    }
+}
+        

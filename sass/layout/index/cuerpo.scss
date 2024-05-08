@@ -39,7 +39,7 @@
 
     .slider-box{
         width: 100%;
-        height: 50vh;
+        height: 40vh;
     }
     
 }
@@ -72,16 +72,20 @@
             font-size: 20px;
         }
     }
-    @media(max-width:991px) {
-
+}
+@media(max-width:991px) {
+    .Bloque2{
+        width: 100%;
         .seccionintro{
-            width: 100%;
+            width: 80%;
             padding: 0;
             img{
                 display: none;
             }
+            p{
+                font-size: 10px;
+            }
         }
-        
     }
 }
 
@@ -289,8 +293,8 @@
             }
             .ContServicios{
                 width: 100%;
-                .Precio1{
-                    padding: 0;
+                p{
+                    font-size: 10px;
                 }
             }
         }
